@@ -93,8 +93,8 @@ with torch.no_grad():
 accuracy = accuracy_score(actuals, predictions)
 conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=[str(i) for i in label_encoder.classes_])
-print("Name: NAUSHEEN FATHIMA A")
-print("Register No: 212224230179")     
+print("Name: NISHMA SHERIN .K  ")    
+print("Register No: 212224240104")     
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
@@ -114,8 +114,8 @@ with torch.no_grad():
     # Select the prediction for the sample (first element)
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = label_encoder.inverse_transform([predicted_class_index])[0]
-print("Name: NAUSHEEN FATHIMA A ")    
-print("Register No: 212224230179")
+print("Name: NISHMA SHERIN .K  ")    
+print("Register No: 212224240104")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[12].item()])[0]}')
 
@@ -125,28 +125,28 @@ print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[
 
 ## Dataset Information
 
-<img width="1385" height="331" alt="Screenshot 2026-02-11 103518" src="https://github.com/user-attachments/assets/64a9fba8-1587-49c3-b4a9-6a8c11a06545" />
+<img width="1336" height="261" alt="Screenshot 2026-02-11 160811" src="https://github.com/user-attachments/assets/5e6d5caf-7bb5-4a84-be69-a01be979abc8" />
+
 
 
 ## OUTPUT
-<img width="889" height="628" alt="Screenshot 2026-02-11 103414" src="https://github.com/user-attachments/assets/c40b1687-63e4-4745-b35e-d6734f42b538" />
+
+<img width="963" height="612" alt="Screenshot 2026-02-11 160911" src="https://github.com/user-attachments/assets/6686ff10-f7c1-42cd-8079-13078dc3a28c" />
 
 
 
 
 ### Confusion Matrix
-
-<img width="321" height="177" alt="Screenshot 2026-02-11 103459" src="https://github.com/user-attachments/assets/f99c3c13-4cc8-4945-b272-c96b3f5ebef9" />
-
 ### Classification Report
 
-<img width="612" height="267" alt="Screenshot 2026-02-11 103503" src="https://github.com/user-attachments/assets/b20977fb-8454-40a6-87e0-ccc15c57fd27" />
 
+<img width="596" height="460" alt="Screenshot 2026-02-11 160843" src="https://github.com/user-attachments/assets/b94e35e2-4373-4fe4-8350-f61ac4951bc1" />
 
 
 ### New Sample Data Prediction
 
-<img width="644" height="143" alt="Screenshot 2026-02-11 103421" src="https://github.com/user-attachments/assets/7e4927d7-6e21-4f5c-835e-e90a33de4698" />
+
+<img width="426" height="117" alt="Screenshot 2026-02-11 160919" src="https://github.com/user-attachments/assets/170f67d0-e41d-4d5d-96f4-c6ca6db5b43f" />
 
 
 ## RESULT
